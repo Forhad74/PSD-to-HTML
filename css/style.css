@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*--------------------------Header Section Start--------------*/
+header{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.logo{
+    width:20%;
+}
+nav{
+    width: 50%;
+    font-family: 'Playfair Display', serif;
+}
+nav ul{
+    display: flex;
+    justify-content:end;
+    list-style: none;
+}
+nav ul li{
+     margin-left: 80px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #626262;
+    text-transform: uppercase;
+}
+/*---------------Header Section End--------------------*/
+/*---------------Banner Section Start------------------------*/
+.banner_section{
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 95px;
+    
+}
+.banner_section img{
+    width: 100%;
+/*---------------Banner Section End--------------------*/
+}
+/*----------------------Photodiary Start---------------------------*/
+
+.photodiary{
+    width:80%;
+    margin: auto;
+}
+h1{
+    color: #626262;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-family: 'Playfair Display', serif;
+}
+h5{
+    color:#b4ad9e;  
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+
+
+}
+p{
+    color: #626262;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 35px;
+    line-height: 25px;
+}
+h6{
+    color: #b4ad9e;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform:uppercase;
+}
+/*----------------------Photodiary End---------------------------*/
+/*----------------------Fetures section Start---------------------------*/
+.fetures_section{
+    width: 80%;
+    margin: auto;
+    margin-top: 115px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.fetures_item{
+   width: 48%;
+   margin-bottom: 100px;
+}
+.fetures_item img{
+    width: 100%;
+}
+.fetures_item h5{
+    color:#b4ad9e;  
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+   }
+h1{
+    color: #626262;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    margin-top: 45px;
+}
+p{
+    color:#626262;
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    line-height: 25px;
+}
+/*----------------------Fetures section End---------------------------*/
+/*----------------------News Letter Section Start---------------------------*/
+.newslatter{
+    width: 100%;
+    padding: 70px 0;
+    background-color: #f0f0f0;
+}
+.content{
+    width: 27%;
+    margin: auto;
+}
+.content h2{
+    color:#333333;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.content input{
+    border: none;
+    border-bottom: 1px solid #000;
+    width:100%;
+    background: transparent;
+    padding: 10px;
+
+
+}
+.content input:focus{
+    outline: none;
+}
+.content input::placeholder{
+    font-family: 'Playfair Display', serif;
+    color:#626262;
+}
+/*----------------------News Letter Section End---------------------------*/
+/*----------------------Load More Section Start---------------------------*/
+.loadmore{
+    text-align: center;
+    margin: 50px 0;
+}
+.loadmore button{
+    background: transparent;
+    border: 1px solid #000;
+    font-size: 16px;
+    padding: 10px 30px;
+    text-transform: capitalize;
+}
+/*----------------------Load More Section End---------------------------*/
+/*----------------------Footer Section Start---------------------------*/
+footer{
+    width: 100%;
+    background-color: #f0f0f0;
+    margin-top: 180px;
+}
+.footer_content{
+    width: 80%;
+    margin: auto;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.terms{
+
+}
+.terms ul{
+    list-style: none;
+    display:flex;
+}
+.terms ul li{
+}
+.terms ul li a{
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    color: #000000;
+    text-transform: capitalize;
+
+}
+
+.social_icon{
+}
+.social_icon ul{
+    list-style: none;
+    display: flex;
+}
+.social_icon ul li{
+    margin-left: 15px;
+    text-transform: capitalize;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+.social_icon ul li a{
+    color:#626262;
+    text-decoration: none;
+}
+/*----------------------Footer Section End---------------------------*/
